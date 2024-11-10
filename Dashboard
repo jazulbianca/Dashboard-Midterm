@@ -1,0 +1,32 @@
+<nav>
+    <ul>
+        <li><a href="dashboard.html">Data Dashboard</a></li>
+        <!-- Other navigation links -->
+    </ul>
+</nav>
+  <div class="dashboard">
+    <h1>Data Dashboard</h1>
+    <section class="page-views">
+        <h2>Page Views per Section</h2>
+        <canvas id="pageViewsChart"></canvas>
+    </section>
+    <section class="user-interactions">
+        <h2>User Interactions</h2>
+        <canvas id="userInteractionsChart"></canvas>
+    </section>
+    <section class="conversion-rates">
+        <h2>Conversion Rates</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Total Attempts</th>
+                    <th>Successful Conversions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Populate with mock data -->
+            </tbody>
+        </table>
+    </section>
+</div>
